@@ -13,7 +13,7 @@
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/ivHomeTeam"
             android:layout_width="@dimen/team_image_size"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/team_image_size"
             android:layout_marginStart="@dimen/margin_default"
             android:layout_marginTop="@dimen/margin_default"
             android:contentDescription="@string/cd_home_team"
@@ -24,7 +24,7 @@
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/ivAwayTeam"
             android:layout_width="@dimen/team_image_size"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/team_image_size"
             android:layout_marginTop="@dimen/margin_default"
             android:layout_marginEnd="@dimen/margin_default"
             android:contentDescription="@string/cd_away_team"
